@@ -1,0 +1,165 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0%;
+    min-height: 100%;    
+    background-image: url("assests/bkg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    backdrop-filter: brightness(40%);
+}
+
+.background-image {
+    filter: brightness(40%);
+}
+.hamburger{
+    margin-top:2%;
+}
+.search{
+    padding: 0;
+    margin-left:90%;
+}
+.text1 {
+    color: #fff;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    /* margin-top: 10%; */
+    font-family: 'Sen', sans-serif;
+    font-size: 70px;
+}
+
+.text2 {
+    color: #fff;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 10%;
+    font-family: 'Sen', sans-serif;
+    font-size: 70px;
+}
+
+.Wrapper {
+    position: relative;
+}
+
+.box1 {
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    border-radius: 50px;
+    opacity: 60%;
+    margin-left: 50%;
+    margin-top: -15%;
+}
+
+.donut {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-color: transparent;
+    border-bottom: 25px solid greenyellow;
+    border-top: 25px solid rgb(29, 46, 3);
+    border-right: 25px solid rgb(225, 230, 217);
+    border-left: 25px solid greenyellow;
+    z-index: 10;
+}
+
+.icons{
+    position: absolute;
+    top: 30%;
+    left: 70%
+}
+.t1{
+    position: absolute;
+    color: #fff;
+    left:75%;
+    top: 25%;
+}
+
+.t2{
+    position: absolute;
+    color: #fff;
+    left:75%;
+    top: 35%;
+}
+
+.t3{
+    position: absolute;
+    color: #fff;
+    left:75%;
+    top: 45%;
+}
+
+.t4{
+    position: absolute;
+    color: #fff;
+    left:75%;
+    top: 55%;
+}
+
+
+.Wrapper2 {
+    position: relative;
+    opacity: 60%;
+    left: 2%;
+    
+    margin-top: 50px;
+    width: 1450px;
+    height: 600px;
+    mix-blend-mode: color-burn;
+    background: #000;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px
+}
+.line{
+    width: 100px;
+    height:4px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.updates{
+    color: #fff;
+    margin-left: 40%;
+    font-family: 'Sen', sans-serif;
+    font-size: 30px;
+}
+.button1{
+    background-size: 120% 110%;
+    background-position: -10px;
+    opacity: 90%;
+    background-image: url("assests/Rectangle\ 2.png"); background-repeat: no-repeat;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    width: 1000px;
+    height: 150px;
+    border-radius: 20px;
+}
+.button2{
+    background-size: 120% 110%;
+    background-position: -10px;
+    opacity: 90%;
+    background-image: url("assests/Rectangle\ 3.png"); background-repeat: no-repeat;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    width: 1000px;
+    height: 150px;
+    border-radius: 20px;}
+.Btxt1{
+    font-family: 'Sen' sans-serif;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 900;
+    opacity: 75%;
+}
+/* .btnimg1{
+    position: inherit;    
+    width: 1000px;
+    height: 150px;
+    border-radius: 20px;
+} */
+
