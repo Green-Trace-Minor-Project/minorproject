@@ -1,0 +1,56 @@
+html{
+    height: 100%;
+    min-width: 100%;
+}
+body{
+    margin: 0%;
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url("assests/bkg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(40%) !important;
+}
+.background-image {
+    filter: brightness(40%);
+}
+.hamburger {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.board{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: #fff;
+    margin-top: 5%;
+    margin-left: 24%;
+    border-radius: 50px;
+    opacity: 60%;
+}
+#questions{
+    position: absolute;
+    color: #000;
+    font-family: 'Sen';
+    font-size: 50px;
+    margin-top: 10%;
+    margin-left:25%;
+}
+#answers{
+    position: absolute;
+    color: #fff;
+    font-family: 'Sen';
+    font-size: 50px;
+    margin-top: 20%;
+    margin-left:25%;
+}
+#nextBtn{
+    width: 20%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: rgb(5, 39, 5);
+    color :#fff;
+    margin-top: 50%;
+    margin-left: 40%;
+    border: 0;
+}
